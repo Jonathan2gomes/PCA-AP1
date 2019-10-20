@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Martes</title>
+    
+  
+    
+
+   
+</head>
+<body>
+    <header>
+        <figure>
+            <a href="index.html"><img src="img/logo.png"></a>
+        </figure>
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Séries</a></li>
+                <li><a href="#">Filmes</a></li>
+                <li><a href="#">Infantil</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="text">
+            <h1>Interestelar</h1>
+            <h2>2h 48min 2014</h2>
+            <p>Nessa profunda obra espacial de Christopher Nolan, Mathew McConaughey e Anne Hathaway juntam-se a Jessica Chastain, Ellen Burstyn e Michael Caine na renomada tripulação de uma equipe de exploração do espaço que realiza o impossível ao viajar por um buraco de minhoca recém-descoberto, ultrapassando os limites das viagens espaciais humanas e entrando numa dimensão completamente diferente.</p>
+        </div>
+        <figure class="img">
+            <img src="https://images-na.ssl-images-amazon.com/images/S/sgp-catalog-images/boxart_images/1863cd6a-906c-4a09-855b-a2295de53a17-dd47c8a8-c3b4-47ee-bdaf-4e625518d5cb_RGB_SD._VHB98MwsBXTAx963empcCBZ9Yc8CWvg_SX300_.jpg">
+        </figure>
+        <label for="reproduzir">
+        <input type="button" name="reproduzir" id="reproduzir" onclick="Mudarestado('player')"><p>Reproduzir</p>
+    </label>
+    <button class="add">Adicionar à sua lista</button>
+    <div class="diretor">
+    <h3>Diretor<h3><span><a href="#">Christopher Nolan</a></span>
+    <h3>Atores Principais</h3><span><a href="#">Ellen Burstyn,</a><a href="#"> Jessica Chastain,</a> <a href="#">Michael Caine</a>
+    </a></span>
+    <h3>Gêneros</h3><span><a href="#">	Ficção Científica</a></span>
+    <h3>Legendas</h3><span>English [CC], Español (Latinoamérica), Español (España), Italiano [CC], Português</span>
+    <h3>Idiomas de áudio</h3><span>	English, Español (España), Español (Latinoamérica), Italiano, Português</span>
+</div>
+    </main>
+    <div id="player">
+            
+            <video id="news" width=1200 height=550 controls preload src="video/Interstellar - Trailer - Official Warner Bros. UK-zSWdZVtXT7E.webm">
+                    <!-- Formato WebM para Firefox e Chrome -->
+                    <source src="news.webm" type='video/webm; codecs="vp8, vorbis"'>
+                    <!-- Formato H.264 para IE e Safari -->
+                    <source src="news.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                    <!-- Recorre ao plugin Flash -->
+                    <object width=1200 height=550 type="application/x-shockwave-flash"
+                    data="flash_movie_player.swf">
+                    <!-- Os elementos Param aqui configuram o reprodutor de filmes Flash que você está
+                    usando -->
+                    <!-- Texto é o último conteúdo de apoio -->
+                    
+                    </object>
+                    </video>
+               
+    </div> -->
+
+    <div class="box_carrossel">
+        <div class="nav back"><p>&laquo;</p></div>
+        <ul class="carrossel">
+            <li class="item"> <img src="img/imagem1.jpg"> </li>
+            <li class="item"> <img src="img/imagem2.jpg"> </li>
+            <li class="item"> <img src="img/imagem3.jpg"> </li>
+            <li class="item"> <img src="img/imagem4.jpg"> </li>
+        </ul>
+        <div class="nav forth"><p>&raquo;</p></div>
+        <div class="clear"></div>
+    </div>
+
+<footer>
+    
+    	<span class="cpr">&#64 2019 </span>
+    <span class="cdd">Criado e Desenvolvido por: <a href="https://www.facebook.com/profile.php?id=100002861834723&ref=br_rs" target="_blank">Jonathan Gomes</a><span>
+    <span class="ctt">Contato: jonathan2gomes.jg@gmail.com</span>
+
+</footer>
+<script src="//code.jquery.com/jquery-2.1.3.min.js"> </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
+<script src="js/script.js"> </script>
+</body>
+</html>
